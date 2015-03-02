@@ -1,0 +1,21 @@
+<div class="row">
+  <h1>Let's Play Rock Paper Scissors</h1>
+
+  <div class="large-12 columns">
+
+    <div class="callout panel">
+      <h2>Player</h2>
+      <p><%= session[:player_score] %></p>
+    </div>
+
+    <div class="callout panel">
+      <h2>Computer</h2>
+      <p><%= session[:computer_score] %></p>
+    </div>
+
+  </div>
+
+  <a href="/player/rock">Rock</a>
+  <a href="/player/paper">Paper</a>
+  <a href="/player/scissors">Scissors</a>
+</div>
